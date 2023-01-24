@@ -1,0 +1,66 @@
+\hypertarget{ncurses_2all_8h}{}\doxysection{ncurses/all.h File Reference}
+\label{ncurses_2all_8h}\index{ncurses/all.h@{ncurses/all.h}}
+
+
+This functions draw boxes with ncurses in different use cases.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../structs/ingredient.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../structs/recipe.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{ncurses_2all_8h_a3725c3e6702b05ffdab18191d56f0962}{show\+\_\+help\+\_\+with\+\_\+ncurses}} ()
+\begin{DoxyCompactList}\small\item\em Draw a help box with ncurses. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{ncurses_2all_8h_a648366476ec23c9d6df05c26306aa21f}\label{ncurses_2all_8h_a648366476ec23c9d6df05c26306aa21f}} 
+void {\bfseries show\+\_\+main\+\_\+menu\+\_\+with\+\_\+ncurses} (char $\ast$p\+\_\+filename)
+\item 
+int \mbox{\hyperlink{ncurses_2all_8h_af4ad7db64272775dd1e4434ff9e2d5b4}{show\+\_\+search\+\_\+by\+\_\+ingredient\+\_\+with\+\_\+ncurses}} ()
+\begin{DoxyCompactList}\small\item\em Draw a search box for ingredients included in recipes with ncurses. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{ncurses_2all_8h_a1b18f2ccc5da83889ee75247525b604e}{show\+\_\+search\+\_\+by\+\_\+recipe\+\_\+name\+\_\+with\+\_\+ncurses}} ()
+\begin{DoxyCompactList}\small\item\em Draw a search box by recipe name with ncurses. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{ncurses_2all_8h_acfb9aaeb13051345815c0b2c09aeecf3}\label{ncurses_2all_8h_acfb9aaeb13051345815c0b2c09aeecf3}} 
+int {\bfseries show\+\_\+selectable\+\_\+menu\+\_\+with\+\_\+ncurses} (char $\ast$name, char $\ast$options\mbox{[}$\,$\mbox{]}, int options\+\_\+count)
+\item 
+\mbox{\Hypertarget{ncurses_2all_8h_aaf92cadb498dd4d226ca2c34a1c464ca}\label{ncurses_2all_8h_aaf92cadb498dd4d226ca2c34a1c464ca}} 
+void {\bfseries show\+\_\+single\+\_\+recipe\+\_\+with\+\_\+ncurses} (char $\ast$p\+\_\+recipe\+\_\+name, int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This functions draw boxes with ncurses in different use cases. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{ncurses_2all_8h_a3725c3e6702b05ffdab18191d56f0962}\label{ncurses_2all_8h_a3725c3e6702b05ffdab18191d56f0962}} 
+\index{all.h@{all.h}!show\_help\_with\_ncurses@{show\_help\_with\_ncurses}}
+\index{show\_help\_with\_ncurses@{show\_help\_with\_ncurses}!all.h@{all.h}}
+\doxysubsubsection{\texorpdfstring{show\_help\_with\_ncurses()}{show\_help\_with\_ncurses()}}
+{\footnotesize\ttfamily void show\+\_\+help\+\_\+with\+\_\+ncurses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draw a help box with ncurses. 
+
+\mbox{\Hypertarget{ncurses_2all_8h_af4ad7db64272775dd1e4434ff9e2d5b4}\label{ncurses_2all_8h_af4ad7db64272775dd1e4434ff9e2d5b4}} 
+\index{all.h@{all.h}!show\_search\_by\_ingredient\_with\_ncurses@{show\_search\_by\_ingredient\_with\_ncurses}}
+\index{show\_search\_by\_ingredient\_with\_ncurses@{show\_search\_by\_ingredient\_with\_ncurses}!all.h@{all.h}}
+\doxysubsubsection{\texorpdfstring{show\_search\_by\_ingredient\_with\_ncurses()}{show\_search\_by\_ingredient\_with\_ncurses()}}
+{\footnotesize\ttfamily void show\+\_\+search\+\_\+by\+\_\+ingredient\+\_\+with\+\_\+ncurses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draw a search box for ingredients included in recipes with ncurses. 
+
+\mbox{\Hypertarget{ncurses_2all_8h_a1b18f2ccc5da83889ee75247525b604e}\label{ncurses_2all_8h_a1b18f2ccc5da83889ee75247525b604e}} 
+\index{all.h@{all.h}!show\_search\_by\_recipe\_name\_with\_ncurses@{show\_search\_by\_recipe\_name\_with\_ncurses}}
+\index{show\_search\_by\_recipe\_name\_with\_ncurses@{show\_search\_by\_recipe\_name\_with\_ncurses}!all.h@{all.h}}
+\doxysubsubsection{\texorpdfstring{show\_search\_by\_recipe\_name\_with\_ncurses()}{show\_search\_by\_recipe\_name\_with\_ncurses()}}
+{\footnotesize\ttfamily void show\+\_\+search\+\_\+by\+\_\+recipe\+\_\+name\+\_\+with\+\_\+ncurses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Draw a search box by recipe name with ncurses. 
+

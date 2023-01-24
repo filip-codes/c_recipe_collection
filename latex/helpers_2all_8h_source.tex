@@ -1,0 +1,48 @@
+\hypertarget{helpers_2all_8h_source}{}\doxysection{all.\+h}
+\label{helpers_2all_8h_source}\index{helpers/all.h@{helpers/all.h}}
+\mbox{\hyperlink{helpers_2all_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ HELPERS\_ALL\_H}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ HELPERS\_ALL\_H}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}../structs/ingredient.h"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}../structs/recipe.h"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00019\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{helpers_2all_8h_ab553c19f3df06356e0f4127fa0bf8e87}{reset\_box}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00027\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{helpers_2all_8h_a0536355d9188bc1f1591f2cf42d0b87d}{quit}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{void}\ load\_recipes(\textcolor{keywordtype}{char}\ *filename);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{void}\ create\_file(\textcolor{keywordtype}{char}\ *filename);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00054\ \textcolor{keywordtype}{void}\ show\_recipe(\textcolor{keywordtype}{char}\ *p\_recipe\_name,\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00062\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{helpers_2all_8h_a3f9fb15ff04a45f049154aae5a1374bd}{clear\_recipes}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00070\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{helpers_2all_8h_ab854e5fb6d0ccd59f21dc1f1b3048c95}{get\_terminal\_size}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00080\ \textcolor{keywordtype}{int}\ count\_recipes(FILE\ *p\_file);}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00093\ \textcolor{keywordtype}{void}\ init\_recipe(\textcolor{keyword}{struct}\ \mbox{\hyperlink{structrecipe}{recipe}}\ **p\_current\_recipe,\ \textcolor{keywordtype}{char}\ word[50],\ \textcolor{keywordtype}{int}\ recipe\_count);}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00104\ \textcolor{keywordtype}{void}\ read\_recipe\_name(\textcolor{keyword}{struct}\ \mbox{\hyperlink{structrecipe}{recipe}}\ **p\_current\_recipe,\ \textcolor{keywordtype}{char}\ word[50]);}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00115\ \textcolor{keywordtype}{void}\ read\_recipe\_ingredient(\textcolor{keyword}{struct}\ \mbox{\hyperlink{structrecipe}{recipe}}\ **p\_current\_recipe,\ \textcolor{keywordtype}{char}\ word[50]);}
+\DoxyCodeLine{00116\ \textcolor{keywordtype}{void}\ read\_recipe\_instruction(\textcolor{keyword}{struct}\ \mbox{\hyperlink{structrecipe}{recipe}}\ **p\_current\_recipe,\ \textcolor{keywordtype}{char}\ word[50]);}
+\DoxyCodeLine{00117\ \textcolor{keywordtype}{int}\ finish\_recipe(\textcolor{keyword}{struct}\ \mbox{\hyperlink{structrecipe}{recipe}}\ **p\_current\_recipe,\ \textcolor{keywordtype}{char}\ word[50],\ \textcolor{keywordtype}{int}\ recipe\_count,\ \textcolor{keywordtype}{int}\ recipe\_amount);}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \textcolor{keywordtype}{void}\ delete\_recipe(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ \textcolor{keywordtype}{char}\ *p\_filename);}
+\DoxyCodeLine{00120\ \textcolor{keywordtype}{void}\ add\_recipe\_to\_file(\textcolor{keywordtype}{char}\ *p\_filename);}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00122\ \textcolor{comment}{//\ ===\ Initialization\ ===\ //}}
+\DoxyCodeLine{00123\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structingredient}{ingredient}}\ *new\_ingredient(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00124\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structrecipe}{recipe}}\ *new\_recipe(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00125\ \textcolor{comment}{//\ ===\ Initialization\ ===\ //}}
+\DoxyCodeLine{00126\ }
+\DoxyCodeLine{00127\ \textcolor{keywordtype}{void}\ edit\_recipe(\textcolor{keywordtype}{char}\ *p\_filename,\ \textcolor{keywordtype}{int}\ recipe\_id);}
+\DoxyCodeLine{00128\ }
+\DoxyCodeLine{00129\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//HELPERS\_ALL\_H}}
+
+\end{DoxyCode}

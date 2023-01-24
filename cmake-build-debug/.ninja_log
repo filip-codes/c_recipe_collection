@@ -1,0 +1,6 @@
+# ninja log v5
+7	52	1672582527302281884	Recipe_Collection	bcdf611f70659755
+0	26	1672581314510430940	CMakeFiles/Recipe_Collection.dir/main.c.o	445c635bdf9738f4
+1	39	1672586278081651671	build.ninja	d66ddd85bd38c0b1
+2	34	1672644573959702830	CMakeFiles/Recipe_Collection.dir/main.c.o	445c635bdf9738f4
+34	65	1672644573991599708	Recipe_Collection	bcdf611f70659755

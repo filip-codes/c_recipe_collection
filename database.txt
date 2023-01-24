@@ -1,0 +1,26 @@
+<recipe>
+    <name>
+        Butterkekse
+    </name>
+    <ingredients>
+        <ingredient>
+            <ingredient_amount>
+                3
+            </ingredient_amount>
+            <ingredient_name>
+                Eier
+            </ingredient_name>
+        </ingredient>
+        <ingredient>
+            <ingredient_amount>
+                7
+            </ingredient_amount>
+            <ingredient_name>
+                Schokokrümel
+            </ingredient_name>
+        </ingredient>
+    </ingredients>
+    <instruction>
+        Eine kleine Beschreibung zu Butterkeksen.
+    </instruction>
+</recipe>

@@ -1,0 +1,80 @@
+\hypertarget{md_task_specification_autotoc_md3}{}\doxysection{Task Specification}\label{md_task_specification_autotoc_md3}
+Allow the user to manage recipes in a file.
+
+{\bfseries{Main Task (30 points)}}
+\begin{DoxyItemize}
+\item Define a human-\/ and computer-\/readable file format that is able to store named recipes with the required amounts of ingredients.
+\item Read that file in and let the user select one of the recipes to display its instructions below a list of the respective ingredients.
+\end{DoxyItemize}
+
+{\bfseries{Task (10 points)}}
+\begin{DoxyItemize}
+\item The user can list all recipes requiring a specified list of ingredients.
+\end{DoxyItemize}
+
+{\bfseries{Task (15 points)}}
+\begin{DoxyItemize}
+\item Allow the user to specify a list of ingredients with respective amounts and show only those recipes that can be made using them, i.\+e. list all recipes that do not require other types or a higher amount of the ingredients than specified.
+\end{DoxyItemize}
+
+{\bfseries{Task (15 points)}}
+\begin{DoxyItemize}
+\item Adding new recipes is possible interactively within the program, which appends the new recipe to the persistent file store.
+\end{DoxyItemize}
+
+{\bfseries{Task (15 points)}}
+\begin{DoxyItemize}
+\item Let the user edit existing recipes within the program.
+\end{DoxyItemize}
+
+{\bfseries{Task (30 points)}}
+\begin{DoxyItemize}
+\item Implement a nice user interface using the {\ttfamily ncurses} library.
+\item Let the user scroll a list of all recipes to select any of them.
+\item Allow the user then to take an action on the respective recipe (e.\+g., edit it).
+\end{DoxyItemize}
+
+{\bfseries{Task (10 points)}} \begin{quote}
+Provide a way within the {\ttfamily ncurses} interface to apply filtering of the recipes similar to the search modes described above. \end{quote}
+{\bfseries{Task (15 points)}}
+\begin{DoxyItemize}
+\item The program arguments are handled by {\ttfamily getopt(3)}.
+\end{DoxyItemize}\hypertarget{md_task_specification_autotoc_md4}{}\doxysection{Example Execution}\label{md_task_specification_autotoc_md4}
+\texorpdfstring{$>$}{>}./recipes database.\+txt~\newline
+ database.\+txt contains 2 recipes\+:~\newline
+ \mbox{[}1\mbox{]} Vanillekipferln~\newline
+ \mbox{[}2\mbox{]} Death by chocolate muffins~\newline
+ Please select the number of the recipe to display, or \textquotesingle{}q\textquotesingle{} to quit\+:~\newline
+ 2~\newline
+ ==========================~\newline
+ Death by chocolate muffins~\newline
+ ==========================~\newline
+ Ingredients\+:~\newline
+ 125 g Schokolade, zartbitter~\newline
+ 125 g Schokolade, Vollmilch~\newline
+ 2 Eier~\newline
+ 125 g Zucker~\newline
+ 1 Beutel Vanillezucker~\newline
+ 50 g Kakaopulver~\newline
+ 125 g Mehl~\newline
+ 125 g Butter~\newline
+ 125 g Schlagobers~\newline
+ Fett fuer die Form$<$br$>$~\newline
+ Instructions\+:~\newline
+ Die Zartbitterschokolade mit der Butter in einem Wasserbad schmelzen~\newline
+ und etwas abkuehlen lassen. Die Eier mit dem Zucker und dem~\newline
+ Vanillezucker schaumig schlagen bis eine cremige Masse entsteht. Das~\newline
+ Mehl und das Kakaopulver vermischen und abwechselnd mit der Schlagobers~\newline
+ in die Ei-\/\+Zucker-\/\+Masse ruehren. Die Schokoladenbutter unterruehren. Die~\newline
+ Vollmilchschokolade hacken und unter den Teig heben. Die Muffinform~\newline
+ fetten und den Teig hinein fuellen. Der Teig reicht fuer 10 Stueck. Bei~\newline
+ 200°C 15 Minuten lang backen. In der Form ca. 30-\/45 Minuten auskuehlen~\newline
+ lassen. Waehrendessen intensiv Sport betreiben, bevor dies nicht mehr~\newline
+ moeglich ist.~\newline
+ ==========================~\newline
+ database.\+txt contains 2 recipes\+:~\newline
+ \mbox{[}1\mbox{]} Vanillekipferln~\newline
+ \mbox{[}2\mbox{]} Death by chocolate muffins~\newline
+ Please select the number of the recipe to display, or \textquotesingle{}q\textquotesingle{} to quit\+:~\newline
+ \begin{quote}
+q \end{quote}
